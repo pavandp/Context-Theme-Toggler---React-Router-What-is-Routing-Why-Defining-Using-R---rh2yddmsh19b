@@ -22,7 +22,7 @@ return(
         </p>
         <button className={`btn ${ localTheme==='light' ? 'btn-light': 'btn-dark'}`} 
         id="local-theme-toggler" onClick={handleLocalTheme}>
-                Themed Button</button>
+                { localTheme==='light' ? 'Toggle local theme to dark': 'Toggle local theme to light'}</button>
     </div>
 )
 }

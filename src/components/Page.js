@@ -15,7 +15,7 @@ const Page = () => {
             </p>
             <button className={`btn ${ globalTheme==='light' ? 'btn-light txt-light': 'btn-dark txt-dark'}`} 
             id="themed-button" onClick={handleGlobalTheme}>
-                Themed Button</button>
+                Sup</button>
             <LocalThemedBox />
         </div>
     )
